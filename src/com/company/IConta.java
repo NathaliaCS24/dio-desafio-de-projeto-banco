@@ -11,5 +11,6 @@ public interface IConta {
     void imprimirExtrato();
 
     default void ImprimirInfosComuns() {
+
     }
 }

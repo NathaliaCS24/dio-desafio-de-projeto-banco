@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         Banco nomeBanco = new Banco();
-        nomeBanco.setNome("FLUBANK");
+        nomeBanco.setNome("NATBANK");
         System.out.println(nomeBanco.getNomeBanco());
 
         Banco endereco = new Banco();

@@ -43,7 +43,6 @@ public abstract class Conta implements IConta {
     public Conta() {
         this.agencia = Conta.AGENCIA_PADRAO;
         this.numeroConta = Conta.SEQUENCIAL++;
-
     }
 
     protected void imprimirInfosComuns() {
